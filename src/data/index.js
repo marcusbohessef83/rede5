@@ -504,7 +504,7 @@ export const TeamOneData = {
       url: "#",
       socials: [
         {
-          name: "Facebook",
+          name: "Instagram",
           url: "#",
         },
         {
@@ -524,7 +524,7 @@ export const TeamOneData = {
       url: "",
       socials: [
         {
-          name: "Facebook",
+          name: "Instagram",
           url: "#",
         },
         {
