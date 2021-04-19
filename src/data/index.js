@@ -537,66 +537,6 @@ export const TeamOneData = {
         },
       ],
     },
-    {
-      image: team03,
-      name: "Helena Adkins",
-      designation: "Seinor Designer",
-      url: "#",
-      socials: [
-        {
-          name: "Facebook",
-          url: "#",
-        },
-        {
-          name: "Twitter",
-          url: "#",
-        },
-        {
-          name: "Linkedin",
-          url: "#",
-        },
-      ],
-    },
-    {
-      image: team04,
-      name: "Virginia Farmer",
-      designation: "Marketing Manager",
-      url: "#",
-      socials: [
-        {
-          name: "Facebook",
-          url: "#",
-        },
-        {
-          name: "Twitter",
-          url: "#",
-        },
-        {
-          name: "Linkedin",
-          url: "#",
-        },
-      ],
-    },
-    {
-      image: team05,
-      name: "Philip Hansen",
-      designation: "Co Founder",
-      url: "#",
-      socials: [
-        {
-          name: "Facebook",
-          url: "#",
-        },
-        {
-          name: "Twitter",
-          url: "#",
-        },
-        {
-          name: "Linkedin",
-          url: "#",
-        },
-      ],
-    },
   ],
 };
 
