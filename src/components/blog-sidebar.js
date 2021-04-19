@@ -5,11 +5,11 @@ const BlogSidebar = () => {
     <Fragment>
       <aside className="widget search-widget">
         <form method="post" action="#" className="searchform">
-          <input type="search" placeholder="Search here..." name="s" id="s" />
+          <input type="search" placeholder="Pesquisar..." name="s" id="s" />
         </form>
       </aside>
       <aside className="widget recent_posts">
-        <h3 className="widget_title">Latest Posts</h3>
+        <h3 className="widget_title">Últimos Posts</h3>
         <div className="meipaly_post_widget">
           {BlogSidebarPost.map(({ title, image, url }, index) => (
             <div className="mpw_item" key={index}>
@@ -24,22 +24,17 @@ const BlogSidebar = () => {
         <div className="meipaly_categorie_widget">
           <ul>
             <li>
-              <a href="#">Business</a>
+              <a href="#">Serveless</a>
             </li>
             <li>
-              <a href="#">Introductions</a>
+              <a href="#">Desenvolvimento</a>
             </li>
             <li>
-              <a href="#">One Page Template</a>
+              <a href="#">SEO</a>
             </li>
             <li>
-              <a href="#">Parallax Effects</a>
+              <a href="#">Tecnologias</a>
             </li>
-            <li>
-              <a href="#">New Technologies</a>
-            </li>
-            <li>
-              <a href="#">Video Backgrounds</a>
             </li>
           </ul>
         </div>
@@ -47,11 +42,11 @@ const BlogSidebar = () => {
       <aside className="widget">
         <h3 className="widget_title">Tags:</h3>
         <div className="meipaly_tagcloude_widget">
-          <a href="#">Business,</a> <a href="#">Agency,</a>{" "}
-          <a href="#">Digital,</a> <a href="#">Technology,</a>
-          <a href="#">Parallax,</a> <a href="#">Innovative,</a>{" "}
+          <a href="#">Business,</a> <a href="#">Serveless</a>{" "}
+          <a href="#">Digital,</a> <a href="#">Desenvolvimento,</a>
+          <a href="#">Parallax,</a> <a href="#">Seo,</a>{" "}
           <a href="#">Professional,</a>
-          <a href="#">Experience,</a>
+          <a href="#">Tecnologias,</a>
         </div>
       </aside>
     </Fragment>

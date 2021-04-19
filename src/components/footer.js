@@ -13,24 +13,17 @@ const Footer = () => {
                 <img src={light} alt="" />
               </a>
               <p>
-                Welcome to our web design agency. Lorem ipsum is simply free
-                text dolor sit amet consectetur adipisicing elit. Tempore
-                corrupti temporibus fuga earum asperiores, alias excepturi sit
-                mpedit fugit laudantium.
+                A Agência REDE5 conta com mais de anos de experiência no mercado de tecnologia 
+                e oferece soluções digitais com qualidade garantindo total satisfação dos clientes
               </p>
             </aside>
           </div>
           <div className="col-lg-4 col-sm-4 col-md-4">
             <aside className="widget contact_widgets">
               <h3 className="widget_title">Contato</h3>
-              <p>
-                66 Broklyn Street, New York
-                <br />
-                United States of America
-              </p>
-              <p>P: 666 888 000</p>
-              <p>
-                E: <a href="#">needhelp@meipaly.com</a>
+              
+            <p>
+                E: <a href="#">rede5@rede5.com.br/a>
               </p>
             </aside>
           </div>
@@ -40,19 +33,11 @@ const Footer = () => {
               <ul>
                 <li>
                   <a href="#">
-                    <i className="fa fa-twitter"></i>Twitter
+                    <i className="fa fa-instagram"></i>Twitter
                   </a>
                 </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-facebook-square"></i>Facebook
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-youtube-play"></i>Youtube
-                  </a>
-                </li>
+                
+               
               </ul>
             </aside>
           </div>

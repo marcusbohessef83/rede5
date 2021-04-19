@@ -6,7 +6,7 @@ const Comments = () => {
   return (
     <Fragment>
       <div className="comment_area">
-        <h3>{BlogComments.length} Comments</h3>
+        <h3>{BlogComments.length} Comentários</h3>
         <ol>
           {BlogComments.map((post, index) => (
             <li key={index}>
@@ -25,7 +25,7 @@ const Comments = () => {
                 className="input-form"
                 type="text"
                 name="name"
-                placeholder="Your Name"
+                placeholder="Seu Nome"
               />
             </div>
             <div className="col-lg-6">
@@ -34,7 +34,7 @@ const Comments = () => {
                 className="input-form"
                 type="email"
                 name="email"
-                placeholder="Email Address"
+                placeholder="E-Mail"
               />
             </div>
             <div className="col-lg-12">
@@ -42,12 +42,12 @@ const Comments = () => {
                 required=""
                 className="input-form"
                 name="comment"
-                placeholder="Write Message"
+                placeholder="Mensagem"
               ></textarea>
             </div>
           </div>
           <a className="common_btn red_bg" href="#">
-            <span>Send Message</span>
+            <span>Enviar</span>
           </a>
         </form>
       </div>
